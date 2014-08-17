@@ -8,18 +8,17 @@ integrates quaternion kinematic equation. As a result there is a relative orient
 system frame attached to sensor. The value of relative orientation is sent to Matlab Simulink model by 
 UDP protocol. The simulink model represents this orientation visually.
 
-Make
+Building
 -
-
-just type 
+Write correct IP address in file *main.cpp* in src folder and type
 ```
-  cd src
   make clean
   make
 ```
 
-Run
+Running
 -
+Open and run simulink model ./simulink/frame_renderer.slx, and after this run gyro program on RaspberryPI
 ```
   ./run.sh
 ```
