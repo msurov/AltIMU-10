@@ -26,3 +26,5 @@ or
 ```
   sudo nice --20 ./gyro
 ```
+
+![](./fig/img.png)
